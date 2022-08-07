@@ -1,3 +1,6 @@
+*{
+  font-family: 'Mulish', sans-serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-get-started{
+  border:3px solid #FFC62F;
+  border-radius:5px;
+  padding:1rem;
+  font-size:1.6rem;
+  font-weight:500;
+  text-decoration: none;
+  color:grey;
+  display:inline-block;
+  transition: 0.5s;
+}
+
+.btn-get-started:hover{
+  background-color:#FFC62F;
+  color:#000;
+}
+
+#header{
+  width:100%;
+  height:80vh;
+  margin-top:80px;
+}
+
+#header h1{
+  margin:0 0 10px 0;
+  font-size:48px;
+  font-weight:700;
+  color:#000;
+}
+
+#header .brand-name{
+  color:#3498db;
+}
+
+#header h2{
+  color:#484848;
+  font-size: 24px;
+}
+
